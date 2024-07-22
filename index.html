@@ -3,8 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <title>Page Title</title>
+  
 </head>
 <body>
-    <script src="main.js"></script>
+  <div class="moves">
+    <button id="rockBtn" fontsize = 20px line-height = 30px>Rock <img src="images/rock.png" alt="Rock icon" width="24px" height="24px"></button>
+    <button id ="paperBtn">Paper <img src="images/paper.png" alt="Paper icon" width="24px" height="24px"></button>
+    <button id = "scissorsBtn">Scissors <img src="images/scissors.png" alt="Scissors icon" width="24px" height="24px"></button>
+  </div>
+  <div class="round">
+    <div id="playerMove">Player move - </div>
+    <div id="computerMove">Computer move - </div>
+    <div id="roundResult">Round result - what round? game didn't start yet!</div>
+  </div>
+  <div class="scoreBoard">
+    Scoreboard: <div id="playerScore"></div> <div id="computerScore"></div>
+  </div>
+
+  <script src="main.js"></script>
 </body>
 </html>
