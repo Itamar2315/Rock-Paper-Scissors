@@ -1,6 +1,5 @@
-Console rock paper scissors. 
-you should open console to play (press f12). 
-small task I did as a part of The Odin Project foundations course.
+Rock Paper Scissors using minimalist UI!
+Did this task as a part of The Odin Project foundations course.
 
 Rock icon - https://www.flaticon.com/free-icons/fist Fist icons created by Cuputo - Flaticon
 
